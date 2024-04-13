@@ -1,0 +1,28 @@
+.workoutCard {
+	margin: 5px;
+	border: 1px solid var(--lightGrey);
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	box-shadow: var(--lightShadow);
+	width: 301.6px;
+	float: left;
+}
+
+.workoutCard:hover {
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+.workoutCardContainer {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.workoutImage {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	transition: 0.3s;
+	width: 300px;
+	height: 200px;
+}

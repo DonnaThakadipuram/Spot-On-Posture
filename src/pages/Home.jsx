@@ -1,12 +1,28 @@
-import LoginField from "../components/LoginField"
 import NavBar from "../components/NavBar"
+import WorkoutCard from "../components/WorkoutCard"
 
 const Home = () => {
+
+	const workouts = [
+		"Deadlift",
+		"Squats",
+		"Bench"
+	]
+
 	return (
-		<div className="page home">
+		<>
 			<NavBar />
-			<h2>Home</h2>
-		</div>
+			<div className="page home">
+				<center>
+					<h1>Welcome back, username!</h1>
+					<div className = "workoutCardContainer">
+						{workouts.map((workout) => (
+							<WorkoutCard workout = {workout}/>
+						))}
+					</div>
+				</center>
+			</div>
+		</>
 	)
 }
 
