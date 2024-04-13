@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Spot-On-Posture/static/css/main.bef756bd.css",
-    "main.js": "/Spot-On-Posture/static/js/main.40766a58.js",
-    "index.html": "/Spot-On-Posture/index.html",
-    "main.bef756bd.css.map": "/Spot-On-Posture/static/css/main.bef756bd.css.map",
-    "main.40766a58.js.map": "/Spot-On-Posture/static/js/main.40766a58.js.map"
+    "main.css": "/static/css/main.bef756bd.css",
+    "main.js": "/static/js/main.697d5d1d.js",
+    "index.html": "/index.html",
+    "main.bef756bd.css.map": "/static/css/main.bef756bd.css.map",
+    "main.697d5d1d.js.map": "/static/js/main.697d5d1d.js.map"
   },
   "entrypoints": [
     "static/css/main.bef756bd.css",
-    "static/js/main.40766a58.js"
+    "static/js/main.697d5d1d.js"
   ]
 }
