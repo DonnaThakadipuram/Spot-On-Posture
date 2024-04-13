@@ -11,10 +11,13 @@ const Home = () => {
 
 	return (
 		<>
-			<NavBar />
+			{/* <NavBar /> */}
+			<div className="header">
+				<h1>Spot-On Posture</h1>
+			</div>
 			<div className="page home">
 				<center>
-					<h1 className="title">Welcome back, username!</h1>
+					<h1 className="title">Welcome back, Ananya!</h1>
 					<div className = "workoutCardContainer">
 						{workouts.map((workout) => (
 							<WorkoutCard workout = {workout}/>
