@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/spotathon.club/static/css/main.bef756bd.css",
+    "main.js": "/spotathon.club/static/js/main.948578f2.js",
+    "index.html": "/spotathon.club/index.html",
+    "main.bef756bd.css.map": "/spotathon.club/static/css/main.bef756bd.css.map",
+    "main.948578f2.js.map": "/spotathon.club/static/js/main.948578f2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bef756bd.css",
+    "static/js/main.948578f2.js"
+  ]
+}
