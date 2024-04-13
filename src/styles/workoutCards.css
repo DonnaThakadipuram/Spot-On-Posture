@@ -1,9 +1,7 @@
 .workoutCard {
 	margin: 5px;
-	border: 1px solid var(--lightGrey);
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-	box-shadow: var(--lightShadow);
+	border: 1px solid var(--primary);
+	border-radius: 10px;
 	width: 301.6px;
 	float: left;
 }
@@ -25,4 +23,11 @@
 	transition: 0.3s;
 	width: 300px;
 	height: 200px;
+}
+
+.workoutCardDesc {
+	color: white;
+	background-color: var(--primary);
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
 }

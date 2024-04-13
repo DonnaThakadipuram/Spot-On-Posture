@@ -6,7 +6,7 @@ const Home = () => {
 	const workouts = [
 		"Deadlift",
 		"Squats",
-		"Bench"
+		"Bench Press"
 	]
 
 	return (
@@ -14,7 +14,7 @@ const Home = () => {
 			<NavBar />
 			<div className="page home">
 				<center>
-					<h1>Welcome back, username!</h1>
+					<h1 className="title">Welcome back, username!</h1>
 					<div className = "workoutCardContainer">
 						{workouts.map((workout) => (
 							<WorkoutCard workout = {workout}/>

@@ -5,7 +5,13 @@
   --secondary: #6d15df;
   --lightGreen: #d4ffe7;
 }
-h1,h2,h3 {
+
+h1 {
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+h2,h3 {
   margin: 0;
 }
 
